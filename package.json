@@ -1,18 +1,30 @@
 {
-  "name": "medialist",
+  "name": "Medialist",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "serve -s dist",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && npm i serve -g",
+    "gcp-build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.16",
     "core-js": "^2.6.5",
+    "jquery": "^3.5.1",
+    "moment": "^2.24.0",
+    "portal-vue": "^2.1.6",
     "register-service-worker": "^1.6.2",
+    "serve": "^11.3.2",
     "vue": "^2.6.6",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-media": "^1.1.1",
+    "vue-offline": "^2.0.8",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
@@ -29,6 +41,8 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "eslint": "^5.8.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
   }

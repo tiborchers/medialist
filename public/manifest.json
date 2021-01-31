@@ -1,6 +1,6 @@
 {
-  "name": "medialist",
-  "short_name": "medialist",
+  "name": "Medialist",
+  "short_name": "Medialist",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
